@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back_send"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/mail_btn_left_menu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/aven"/>
+
+    <ImageView
+        android:id="@+id/mail_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:src="@mipmap/error"/>
+
+    <LinearLayout
+        android:id="@+id/mail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail_logo"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题："
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt_mail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请简要描述问题类别"
+            android:lines="1"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mail_title"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容："
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt_mail_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:enabled="true"
+            android:gravity="top"
+            android:hint="@string/warning_send"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:minLines="10"
+            android:scrollbars="vertical">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape"
+            android:text="反馈"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pixels，感谢您的反馈"
+            android:textSize="10sp"/>
+    </LinearLayout>
+</RelativeLayout>

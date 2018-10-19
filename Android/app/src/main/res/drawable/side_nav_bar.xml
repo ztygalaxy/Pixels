@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:shape="rectangle"
+       tools:keep="@drawable/side_nav_bar">
+    <gradient
+        android:angle="180"
+        android:startColor="#79c0e6"
+        android:centerColor="#2ca3e1"
+        android:endColor="#0d8faf"
+        android:type="linear"/>
+</shape>

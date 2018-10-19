@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kankan"
+            android:icon="@mipmap/eye1"
+            android:title="随便看看"/>
+        <item
+            android:id="@+id/nav_draw"
+            android:icon="@mipmap/pen"
+            android:title="开始创作"/>
+        <item
+            android:id="@+id/nav_gall"
+            android:icon="@mipmap/photo"
+            android:title="从相册上传"/>
+    </group>
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/connect"
+                android:title="联系作者"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/set1"
+                android:title="版本更新"/>
+        </menu>
+    </item>
+</menu>

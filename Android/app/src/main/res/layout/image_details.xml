@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.fyb.cyhs.com.android.zty.cyhs.ImageDetailsActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/page_text"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/details_like"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@mipmap/unlike"
+            android:text=""
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/details_coll"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/uncoll"
+            android:text=""
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/details_down"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@mipmap/undown"
+            android:text=""/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/details_item"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="5100000"
+        android:gravity="center_vertical"
+        android:text="这里是标题"
+        android:textColor="#717171"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/btn_detail_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/aven"/>
+</RelativeLayout>

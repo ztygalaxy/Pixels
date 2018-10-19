@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (C) 2012 The Android Open Source Project
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+       http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:paddingLeft="@dimen/tool_palette_gutter"
+    android:paddingBottom="@dimen/tool_palette_gutter"
+    android:orientation="vertical" >
+          <Button
+              style="@style/ActionBar.MenuItem"
+            android:src="@drawable/share"
+            android:text="分享"
+            android:contentDescription="share drawing"
+            android:onClick="clickShare"
+            />
+          <Button
+              style="@style/ActionBar.MenuItem"
+            android:src="@drawable/load"
+            android:text="加载"
+            android:contentDescription="load image"
+            android:onClick="clickLoad"
+            />
+    <Button
+        style="@style/ActionBar.MenuItem"
+        android:src="@drawable/watermark"
+        android:text="水印"
+        android:contentDescription="water mark"
+        android:onClick="clickWaterMark"
+        />
+          <Button
+              android:visibility="gone"
+            android:id="@+id/debug"
+            style="@style/ActionBar.MenuItem"
+            android:src="@drawable/doodlebug" 
+            android:text="调试"
+            android:contentDescription="debug mode"
+            android:onClick="clickDebug"
+            />
+          <Button
+              style="@style/ActionBar.MenuItem"
+            android:text="关于"
+            android:contentDescription="about markers"
+            android:onClick="clickAbout"
+            />
+         <Button
+             android:visibility="gone"
+             style="@style/ActionBar.MenuItem"
+            android:text="退出"
+            android:contentDescription="about markers"
+            android:onClick="clickExit"
+        />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pixels</string>
+    <string name="slogan">与世界分享你的英雄梦</string>
+    <string name="author">Powered By Zhang Tian yu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="border_top">Border Top</string>
+    <string name="border_bottom">Border Bottom</string>
+    <string name="image_url">Image Url</string>
+
+    <string name="tips">Pixels，与世界分享你的英雄梦</string>
+    <string name="warning_send">请详细描述您要反馈的问题\n注意:\n &#160;将采用系统自带邮件应用为您发送反馈建议,使用前请确认配置完毕，或者直接电邮作者。</string>
+</resources>

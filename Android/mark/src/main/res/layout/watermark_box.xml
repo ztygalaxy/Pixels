@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/labelInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:text="水印文字："
+        />
+
+    <EditText
+        android:id="@+id/watertext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/labelInput"
+        android:hint="请输入内容"
+        android:ellipsize="none"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout0"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/labelSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelInput"
+        android:ellipsize="none"
+        android:text="字体大小："
+        />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/watertext"
+        android:layout_toRightOf="@+id/labelSize"
+        android:ellipsize="none"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/labelX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelSize"
+        android:ellipsize="none"
+        android:text="坐标X："
+        />
+    <Spinner
+        android:id="@+id/spinnerX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_toRightOf="@+id/labelSize"
+        android:ellipsize="none"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout2"
+        android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelX"
+        android:ellipsize="none"
+        android:text="坐标Y："
+        />
+    <Spinner
+        android:id="@+id/spinnerY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerX"
+        android:layout_toRightOf="@+id/labelSize"
+        android:ellipsize="none"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ellipsize="none"
+            android:text="生成水印"
+            android:onClick="clickGenerateWaterMark"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

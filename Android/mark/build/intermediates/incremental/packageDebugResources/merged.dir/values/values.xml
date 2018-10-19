@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_bg">#FF222222</color>
+    <color name="btn_fg">#FF555555</color>
+    <color name="btn_pressed_bg">#FFFFCC00</color>
+    <color name="btn_pressed_fg">#FF555555</color>
+    <color name="btn_selected_bg">#FFFFFFFF</color>
+    <color name="btn_selected_fg">#FF000000</color>
+    <declare-styleable name="PenToolButton"><attr format="dimension" name="strokeWidthMax"/><attr format="dimension" name="strokeWidthMin"/><attr format="reference" name="interpolator"/></declare-styleable>
+    <declare-styleable name="PenTypeButton"><attr name="penType">
+	        <enum name="whiteboard" value="0"/>
+	        <enum name="feltTip" value="1"/>
+	        <enum name="airbrush" value="2"/>
+	        <enum name="fountainpen" value="3"/>
+        </attr></declare-styleable>
+    <declare-styleable name="SwatchButton"><attr format="color" name="color"/></declare-styleable>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="action_bar_logo_width">48dip</dimen>
+    <dimen name="action_button_padding_v">4dp</dimen>
+    <dimen name="action_button_width">48dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="tool_palette_gutter">6dp</dimen>
+    <dimen name="tools_margin_top">@dimen/action_bar_height</dimen>
+    <dimen name="ui_font_size">18sp</dimen>
+    <drawable name="actionbar_button_bg">#00000000</drawable>
+    <drawable name="actionbar_button_pressed_bg">#60FFFFFF</drawable>
+    <drawable name="actionbar_button_selected_bg">#CCFFCC00</drawable>
+    <string name="app_name">Pixels</string>
+    <string name="orientation">portrait</string>
+    <style name="ActionBar">
+        <item name="android:textSize">@dimen/ui_font_size</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="ActionBar.Bar">
+        <item name="android:background">#FF000000</item>
+    </style>
+    <style name="ActionBar.Icon">
+        <item name="android:background">@drawable/action_button_bg</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/action_button_width</item>
+        <item name="android:paddingTop">@dimen/action_button_padding_v</item>
+        <item name="android:paddingBottom">@dimen/action_button_padding_v</item>
+    </style>
+    <style name="ActionBar.MenuItem">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/ui_font_size</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:background">@drawable/action_button_bg</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="ActionBar.Text">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/title_size</item>
+    </style>
+</resources>

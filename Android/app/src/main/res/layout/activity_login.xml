@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@mipmap/back_send"
+    tools:context="com.android.fyb.cyhs.com.android.zty.cyhs.TestActivity">
+
+    <ImageButton
+        android:id="@+id/btn_left_menu_login"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/aven"/>
+
+    <LinearLayout
+        android:id="@+id/ll_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@mipmap/logo_login"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp">
+
+            <EditText
+                android:id="@+id/edt_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="账号"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:theme="@style/MyEditText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp">
+
+            <EditText
+                android:id="@+id/edt_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="密码"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:theme="@style/MyEditText"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ll_upload"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/logo_login_btn"
+        android:gravity="center_horizontal"
+        android:textColor="#d6d6d6"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_register_inlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:text="没有账号？"
+        android:textColor="#767676"
+        android:textSize="12sp"/>
+</RelativeLayout>

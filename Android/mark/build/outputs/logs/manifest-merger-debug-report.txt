@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:1-39:12
+	package
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:70-105
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:131-158
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:11-69
+	android:versionCode
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:16:106-130
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:17:5-72
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:17:5-72
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:17:5-72
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:17:5-72
+INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:17:5-72
+	android:targetSdkVersion
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:17:15-44
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:17:45-70
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+		INJECTED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:18:22-78
+supports-screens
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:19:5-50
+	android:anyDensity
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:19:23-48
+uses-feature#android.hardware.touchscreen
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:22:5-89
+	android:required
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:22:63-87
+	android:name
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:22:19-62
+application
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:24:5-38:19
+	android:label
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:24:18-50
+	android:hardwareAccelerated
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:24:106-140
+	android:largeHeap
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:24:81-105
+	android:icon
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:24:51-80
+activity#com.google.android.apps.markers.MarkersActivity
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:25:9-37:20
+	android:label
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:25:82-114
+	android:configChanges
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:25:115-161
+	android:name
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:25:19-81
+intent-filter#action:name:android.intent.action.EDIT+action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:30:13-35:29
+action#android.intent.action.EDIT
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:31:25-66
+action#android.intent.action.SEND
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:32:17-68
+	android:name
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:32:25-66
+data
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:33:17-51
+	android:mimeType
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:33:23-49
+category#android.intent.category.DEFAULT
+ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:34:17-75
+	android:name
+		ADDED from D:\ASWork\Pixels\mark\src\main\AndroidManifest.xml:34:27-73
