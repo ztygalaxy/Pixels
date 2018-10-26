@@ -1,4 +1,3 @@
-# Pixels
 <p align="center">
 	<img width="100" height="100" src="Android\mark\src\main\res\drawable-nodpi\aven.png" alt="logo">
 </p>
@@ -8,6 +7,7 @@
     <img src="https://img.shields.io/badge/mail-tyzhang@hdu.edu.cn-orange.svg">
 </p>
 
+## Pixels
 #### A simple photo community app that implements data communication with the server.
 
 #### The purpose is to help my classmate complete the task and exercise my abilities.
