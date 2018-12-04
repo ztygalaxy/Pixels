@@ -24,4 +24,5 @@
 
 - Feedback
 
+**Developed by ztygalaxy and YiboFan.**
 ![Demo](screenshot.png)
