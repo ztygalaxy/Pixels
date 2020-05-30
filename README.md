@@ -20,8 +20,16 @@
 
 - Feedback
 
+####  Directory description
+
+- Android
+- Server # ServletMVC
+- Pixels_server # SSM
+
 #### Developed by ztygalaxy and YiboFan.
 
 #### Demo:  [Vedio](S80601-19091015.mp4)
+
+#### 中文：[README](README_zh.md)
 
 ![Demo](screenshot.png)
