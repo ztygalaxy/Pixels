@@ -28,7 +28,7 @@
 
 #### Developed by ztygalaxy and YiboFan.
 
-#### Demo:  [Vedio](S80601-19091015.mp4)
+#### Demo:  [Video](S80601-19091015.mp4)
 
 #### 中文：[README](README_zh.md)
 
