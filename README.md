@@ -33,7 +33,7 @@
 #### 👨‍💻 作者
 
 - [ztygalaxy](https://tyzhang.top)
-- Yibo Fan
+- Inspired by Yibo Fan
 
 #### 🎨 演示
 
