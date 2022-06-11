@@ -1,5 +1,5 @@
 <p align="center">
-	<img width="100" height="100" src="Android\mark\src\main\res\drawable-nodpi\aven.png" alt="logo">
+    <img width="100" height="100" src="https://pic.tyzhang.top/images/2022/06/11/aven.png" alt="logo">
 </p>
 
 ## Pixels
@@ -21,7 +21,7 @@
 
 - 移动端 Android
 - 基于 Servlet MVC 的服务端 Server
-- 基于SSM框架重构的服务端 Pixels_server 
+- 基于 SSM 框架重构的服务端 Pixels_server 
 
 #### 🚆 开发与测试平台
 
@@ -37,8 +37,7 @@
 
 #### 🎨 演示
 
--  [视频](S80601-19091015.mp4)
-- 截图![Demo](screenshot.png)
+- [视频](S80601-19091015.mp4)
+- 截图![Demo](https://pic.tyzhang.top/images/2022/06/11/screenshot.png)
 
 #### ✨谨以“Pixels”献给我的英雄梦！
-
